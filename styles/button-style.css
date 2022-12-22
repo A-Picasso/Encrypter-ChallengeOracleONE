@@ -33,3 +33,9 @@
 .buttonTransparent:hover {
   background: linear-gradient(var(--white), var(--d-blue100));
 }
+
+@media screen and (min-width: 768px) {
+  .buttonEncrypt, .buttonTransparent {
+    width: 20.5rem;
+  }
+}
