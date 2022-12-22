@@ -1,0 +1,9 @@
+.header-wrapper {
+  margin-inline: 1rem;
+  margin-block-start: 1.5rem;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

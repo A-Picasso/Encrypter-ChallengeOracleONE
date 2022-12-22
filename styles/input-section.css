@@ -1,0 +1,42 @@
+.main-wrapper {
+  margin-inline: 1rem;
+}
+.main-wrapper p:nth-child(3){
+  font: var(--warning-text);
+  color: var(--gray400);
+  position: relative;
+  padding-inline-start: 1.25rem;
+}
+.main-wrapper img:nth-child(2) {
+  position: absolute;
+}
+.buttons-container {
+  margin-block-start: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.input-container {
+  margin-block-start: 5rem;
+}
+.input-container textarea{
+  font: var(--input-text);
+  color: var(--d-blue300);
+  background: transparent;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 15.625rem;
+}
+.input-container textarea::placeholder {
+  font: var(--input-text);
+  color: var(--d-blue300);
+}
+
+@media screen and (min-width: 768px) {
+  .buttons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+}

@@ -1,0 +1,28 @@
+:root {
+  /* Colors */
+  --d-blue100: #609ED4;
+  --d-blue200: #356EA9;
+  --d-blue300: #0A3871;
+  --d-blue400: #072B61;
+  --d-blue500: #052051;
+  --l-blue100: #F3F5FC;
+  --l-blue200: #EFF1FA;
+  --l-blue300: #E9ECF8;
+  --l-blue400: #AAB2D5;
+  --l-blue500: #757FB2;
+  --gray100: #CED4DA;
+  --gray200: #ADB5BD;
+  --gray300: #868E96;
+  --gray400: #495057;
+  --gray500: #343A40;
+  --white: #FFF;
+
+  /* Fonts */
+  --font-base: 'Inter', sans-serif;
+  --button-text: 400 1rem/1.21rem var(--font-base);
+  --warning-text: 400 0.75rem/1.125rem var(--font-base);
+  --input-text: 400 2rem/3rem var(--font-base);
+  --output-text: 400 2rem/2rem var(--font-base);
+  --error-description: 400 1rem/1.5rem var(--font-base);
+  --error-message: 700 1.5rem/1.8rem var(--font-base);
+} 

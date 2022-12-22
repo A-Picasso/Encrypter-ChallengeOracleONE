@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import './reset.css';
+@import './style-guide.css';
+@import './button-style.css';
+@import './header.css';
+@import './input-section.css';
+@import './aside.css';
+
+body {
+  background-image: linear-gradient(to right top, #e5e5e5, #e7e7ea, #e8e8ee, #e9eaf3, #e9ecf8);
+  height: 100vh;
+  font: var(--font-base);
+}
+
+@media screen and (min-width: 768px) {
+  .grid-wrapper {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.7fr 1.3fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "header-wrapper header-wrapper aside-wrapper"
+      "main-wrapper main-wrapper aside-wrapper"
+      "main-wrapper main-wrapper aside-wrapper"; 
+  }
+  .header-wrapper { grid-area: header-wrapper; }
+  .main-wrapper { grid-area: main-wrapper; }
+  .aside-wrapper { grid-area: aside-wrapper; }
+  
+}
