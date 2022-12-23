@@ -1,13 +1,84 @@
 .aside-wrapper {
-  margin-inline: 1.5rem;
+  padding: 2rem;
+  margin-inline: 2.5rem;
   margin-block-start: 3rem;
   background: var(--white);
   border-radius: 2rem;
   font: var(--error-description);
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.aside-wrapper p:nth-child(1) {
+.pDefault {
+  font: var(--error-message);
   padding: 2rem;
   text-align: center;
+}
+/* text and image in case of error */
+.container-error img {
+  width: 21rem;
+  height: 19rem;
+  margin-block-end: 2rem;
+}
+.container-error {
+  margin-inline: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-error h2{
+  font: var(--error-message);
+}
+.pError {
+  font: var(--error-description);
+  color: var(--gray400);
+  text-align: center;
+}
+/* Data Output */
+.data-output {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#output {
+  font: var(--input-text);
+  color: var(--gray500);
+  border: none;
+  outline: none;
+  resize: none;
+  height: 15.625rem;
+  width: 100%;
+  margin-block-end: 2rem;
+}
+.data-output .buttonTransparent {
+  width: 100%;
+}
+.copied {
+  background: black;
+  padding: 0.625rem;
+  color: var(--white);
+  border-radius: 1rem;
+  margin-block-end: 0.625rem;
+}
+
+
+@media screen and (min-width: 980px) {
+  .aside-wrapper {
+    margin-block-start: 2.5rem;
+    padding: 0;
+  }
+  .data-output {
+    width: 85%;
+    height: 100%;
+  }
+  .data-output .buttonTransparent {
+    width: 20.5rem;
+  }
+  #output {
+    margin-block-end: 3.5rem;
+  }
 }

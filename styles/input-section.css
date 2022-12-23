@@ -1,13 +1,13 @@
 .main-wrapper {
   margin-inline: 1rem;
 }
-.main-wrapper p:nth-child(3){
+.warning-text p{
   font: var(--warning-text);
   color: var(--gray400);
   position: relative;
   padding-inline-start: 1.25rem;
 }
-.main-wrapper img:nth-child(2) {
+.warning-text img {
   position: absolute;
 }
 .buttons-container {
@@ -20,24 +20,35 @@
   margin-block-start: 5rem;
 }
 .input-container textarea{
-  font: var(--input-text);
+  font: var(--output-text);
   color: var(--d-blue300);
   background: transparent;
   border: none;
   outline: none;
   resize: none;
   height: 15.625rem;
+  width: 100%;
 }
 .input-container textarea::placeholder {
   font: var(--input-text);
   color: var(--d-blue300);
 }
 
+
 @media screen and (min-width: 768px) {
   .buttons-container {
+    margin-inline: 6.25rem;
+  }
+}
+@media screen and (min-width: 980px) {
+  .buttons-container {
+    margin-inline: 0;
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
+  }
+  .input-container {
+    margin-block-start: 1rem;
   }
   .input-container textarea {
     width: 90%;

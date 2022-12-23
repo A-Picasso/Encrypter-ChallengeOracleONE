@@ -11,12 +11,14 @@ body {
   height: 100vh;
   font: var(--font-base);
 }
+.none {
+  display: none;
+}
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 980px) {
   .grid-wrapper {
-  height: 95%;
+  height: 85%;
   margin-inline: 2.5rem;
-  background: red;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.7fr 1.3fr 1fr;
