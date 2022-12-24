@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Encriptador-Alura Challenge ONE</title>
     <link rel="stylesheet" href="./styles/main.css" />
-    <script src="./js/script.js"></script>
+    <script defer src="./js/script.js"></script>
   </head>
   <body>
     <div class="grid-wrapper">
@@ -23,35 +23,29 @@
         <div class="input-container">
           <textarea id="input-area" placeholder="Enter text here"></textarea>
         </div>
-        <!-- Se agregara con js -->
         <div class="warning-text none">
           <img src="./assets/sign.svg" alt="Sign Icon" />
           <p>
-            Only lowercase letters and no accents
+            Only letters and no accents.
           </p>
         </div>
-        <!-- ------------- -->
         <div class="buttons-container">
-          <button class="buttonEncrypt">Encrypt</button>
-          <button class="buttonTransparent">Decrypt</button>
+          <button id="buttonEncrypt" class="buttonEncrypt">Encrypt</button>
+          <button id="buttonDecrypt" class="buttonTransparent">Decrypt</button>
         </div>
       </main>
   
       <aside class="aside-wrapper">
-        <!-- Se agregara con js -->
         <div class="container-error none">
           <img src="./assets/Muñeco.png" alt="Image">
           <h2>No message was found</h2>
           <p class="pError">Enter the text you want to encrypt or decrypt.</p>
         </div>
-        <!-- ------------- -->
-        <!-- Se agregara con js -->
         <div class="data-output none">
           <textarea id="output" readonly></textarea>
           <p class="copied none">Copied!</p>
-          <input type="button" class="buttonTransparent" value="Copy">
+          <input id="buttonCopy" type="button" class="buttonTransparent" value="Copy">
         </div>
-        <!-- ------------- -->
         <p class="pDefault">Enter the text you want to encrypt or decrypt.</p>
       </aside>
     </div>
