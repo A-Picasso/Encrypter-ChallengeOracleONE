@@ -16,7 +16,7 @@ body {
   display: none;
 }
 .hidden {
-  display: hidden;
+  visibility: hidden;
 }
 
 @media screen and (min-width: 980px) {

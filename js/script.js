@@ -108,9 +108,9 @@ buttonDecrypt.addEventListener('click', ()=>{
 buttonCopy.addEventListener('click', ()=>{
   navigator.clipboard.writeText(outputArea.value)
   .then( ()=>{
-    infoCopied.classList.remove('none');
+    infoCopied.classList.remove('hidden');
     setTimeout(()=>{
-      infoCopied.classList.add('none');
+      infoCopied.classList.add('hidden');
     }, 2000);
   }) 
   .catch( ()=>{
