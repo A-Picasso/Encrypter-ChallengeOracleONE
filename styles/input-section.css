@@ -3,7 +3,7 @@
 }
 .warning-text p{
   font: var(--warning-text);
-  color: var(--gray400);
+  color: var(--red);
   position: relative;
   padding-inline-start: 1.25rem;
 }
@@ -26,7 +26,7 @@
   border: none;
   outline: none;
   resize: none;
-  height: 15.625rem;
+  height: 12rem;
   width: 100%;
 }
 .input-container textarea::placeholder {
@@ -52,5 +52,6 @@
   }
   .input-container textarea {
     width: 90%;
+    height: 15.625rem;
   }
 }

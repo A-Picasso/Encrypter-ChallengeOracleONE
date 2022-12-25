@@ -50,7 +50,7 @@
   border: none;
   outline: none;
   resize: none;
-  height: 15.625rem;
+  /* height: 15.625rem; */
   width: 100%;
   margin-block-end: 2rem;
 }
@@ -79,6 +79,7 @@
     width: 20.5rem;
   }
   #output {
+    height: 15.625rem;
     margin-block-end: 3.5rem;
   }
 }
