@@ -44,7 +44,7 @@
   justify-content: center;
   align-items: center;
 }
-#output {
+.output {
   font: var(--input-text);
   color: var(--gray500);
   border: none;

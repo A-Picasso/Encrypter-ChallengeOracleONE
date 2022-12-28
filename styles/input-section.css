@@ -9,6 +9,7 @@
 }
 .warning-text img {
   position: absolute;
+  filter: invert(29%) sepia(60%) saturate(4249%) hue-rotate(347deg) brightness(89%) contrast(85%);
 }
 .buttons-container {
   margin-block-start: 1rem;

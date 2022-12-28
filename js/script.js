@@ -2,12 +2,17 @@
 let buttonEncrypt = document.querySelector('#buttonEncrypt');
 let buttonDecrypt = document.querySelector('#buttonDecrypt');
 let buttonCopy = document.querySelector('#buttonCopy');
+let buttonDark = document.querySelector('#buttonDark');
+let buttonLight = document.querySelector('#buttonLight');
 
 /* Input Data */
 let inputArea = document.querySelector('#input-area');
 
 /* Output Data*/
-let outputArea = document.querySelector('#output');
+let outputArea = document.querySelector('.output');
+
+/* HTML Body */
+let body = document.body;
 
 /* Hidden items */
 let warningText = document.querySelector('.warning-text'); /*1*/
@@ -77,6 +82,18 @@ function decrypt(string) {
   showDataOutput();
 }
 
+function darkMode(){
+  body.classList.toggle('darkMode');
+  buttonDark.classList.add('none');
+  buttonLight.classList.remove('none');
+}
+
+function lightMode(){
+  body.classList.remove('darkMode');
+  buttonLight.classList.add('none');
+  buttonDark.classList.remove('none');
+}
+
 
 /* Buttons Events */ 
 buttonEncrypt.addEventListener('click', ()=>{
@@ -116,4 +133,12 @@ buttonCopy.addEventListener('click', ()=>{
   .catch( ()=>{
     console.log('Syntax ERROR');
   });
+});
+
+buttonDark.addEventListener('click', ()=>{
+  darkMode();
+});
+
+buttonLight.addEventListener('click', ()=>{
+  lightMode();
 });
