@@ -18,16 +18,15 @@
 }
 /* text and image in case of error */
 .container-error img {
-  width: 21rem;
-  height: 19rem;
   margin-block-end: 2rem;
+  max-width: 100%;
 }
 .container-error {
-  margin-inline: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .container-error h2{
   font: var(--error-message);
@@ -57,7 +56,7 @@
   width: 100%;
 }
 .copied {
-  background: black;
+  background: var(--black);
   padding: 0.625rem;
   color: var(--white);
   border-radius: 1rem;
@@ -77,8 +76,7 @@
   .data-output .buttonTransparent {
     width: 20.5rem;
   }
-  #output {
-    height: 15.625rem;
-    margin-block-end: 3.5rem;
+  .output {
+    margin-block-end: 5.5rem;
   }
 }

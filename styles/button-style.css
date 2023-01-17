@@ -17,7 +17,7 @@
   border-color: var(--d-blue400);
   border-radius: 1.5rem;
   box-shadow: 3px 4px 0px 0px var(--d-blue200);
-  text-shadow: 0px 1px 0px var(--d-blue200);
+  text-shadow: 0px 1px 0px var(--white);
   background: none;
 }
 .button--style {

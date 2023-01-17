@@ -15,6 +15,11 @@
   align-items: center;
 }
 
+@media screen and (min-width: 760px) {
+  .footer-wrapper {
+    margin-block-start: 6rem;
+  }
+}
 @media screen and (min-width: 980px) {
   .footer-wrapper {
     margin-block-start: 1.2rem;
