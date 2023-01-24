@@ -77,6 +77,8 @@
     width: 20.5rem;
   }
   .output {
-    margin-block-end: 5.5rem;
+    height: 12.5rem;
+    margin-block-end: 1.2rem;
+    text-align: center;
   }
 }

@@ -34,6 +34,17 @@ body {
 .hidden {
   visibility: hidden;
 }
+::-webkit-scrollbar{
+  background: var(--d-blue500);
+}
+::-webkit-scrollbar-thumb{
+  background: var(--l-blue400);
+  border-radius: 0.625rem;
+}
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active{
+  background-color: var(--red);
+}
 
 
 @media screen and (min-width: 980px) {
