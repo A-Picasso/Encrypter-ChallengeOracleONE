@@ -22,11 +22,11 @@ let pDefault = document.querySelector('.pDefault');
 let infoCopied = document.querySelector('.copied');
 
 
-/* Show functions */
+// Show functions
 
 /**
  * `showDataOutput()` is a function that removes the class `none` from the element with the id
- * `dataOutput` and adds the class `none` to the element with the id `pDefault`
+ * `dataOutput` and adds the class `none` to the element with the class `pDefault`
  */
 function showDataOutput(){
   dataOutput.classList.remove('none');
@@ -42,8 +42,8 @@ function showErrorMessage(){
 }
 
 /**
- * It removes the class 'none' from the paragraph with the id 'pDefault' and the paragraph with the id
- * 'warningText'. Then it adds the class 'none' to the paragraph with the id 'warningText' after 3
+ * It removes the class 'none' from the paragraph with the class 'pDefault' and the paragraph with the class
+ * 'warningText'. Then it adds the class 'none' to the paragraph with the class 'warningText' after 3
  * seconds
  */
 function shoWarningText(){
@@ -55,7 +55,7 @@ function shoWarningText(){
 }
 
 
-/* Principal functions */
+// Principal functions
 
 /**
  * It adds the class 'none' to the errorMessage and dataOutput elements
@@ -139,9 +139,11 @@ function lightMode(){
 }
 
 
-/* Buttons Events */ 
+// Buttons Events
 
-
+/* Adding an event listener to the buttonEncrypt element. When the button is clicked, it
+clears the dataOutput element, gets the value of the inputArea element, and validates the input. If
+the input is valid, it encrypts the input. If the input is not valid, it shows a warning message. */
 buttonEncrypt.addEventListener('click', ()=>{
   clearDataOutput();
   const inputText = inputArea.value;
@@ -155,6 +157,9 @@ buttonEncrypt.addEventListener('click', ()=>{
   }
 });
 
+/* Adding an event listener to the buttonDecrypt element. When the button is clicked, it
+clears the dataOutput element, gets the value of the inputArea element, and validates the input. If
+the input is valid, it decrypts the input. If the input is not valid, it shows a warning message. */
 buttonDecrypt.addEventListener('click', ()=>{
   clearDataOutput();
   const outputText = inputArea.value;
@@ -168,6 +173,10 @@ buttonDecrypt.addEventListener('click', ()=>{
   }
 });
 
+/* Adding an event listener to the buttonCopy element. When the button is clicked, it
+copies the value of the outputArea element to the clipboard. If the copy is successful, it removes
+the hidden class from the infoCopied element and adds the hidden class to the infoCopied element
+after 2 seconds. If the copy is not successful, it logs a message to the console. */
 buttonCopy.addEventListener('click', ()=>{
   navigator.clipboard.writeText(outputArea.value)
   .then( ()=>{
@@ -177,14 +186,18 @@ buttonCopy.addEventListener('click', ()=>{
     }, 2000);
   }) 
   .catch( ()=>{
-    console.log('Syntax ERROR');
+    console.log('Failed to copy');
   });
 });
 
+/* It adds an event listener to the buttonDark element. When the button is clicked, it calls the
+darkMode function. */
 buttonDark.addEventListener('click', ()=>{
   darkMode();
 });
 
+/* It adds an event listener to the buttonLight element. When the button is clicked, it calls the
+lightMode function. */
 buttonLight.addEventListener('click', ()=>{
   lightMode();
 });

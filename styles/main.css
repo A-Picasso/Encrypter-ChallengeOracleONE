@@ -12,9 +12,9 @@ body {
   font: var(--font-base);
 }
 .gradient-background--light {
-  background: linear-gradient(300deg,#e5e5e5,#ffefba,#e9ecf8);
-  background-size: 180% 180%;
-  animation: gradient-animation-l 18s ease infinite;
+  background: linear-gradient(300deg,#8685ef,#f3f5fc,#f3f5fc,#8685ef);
+  background-size: 240% 240%;
+  animation: gradient-animation-l 24s ease infinite;
 }
 
 @keyframes gradient-animation-l {
