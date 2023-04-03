@@ -36,6 +36,13 @@ The letter "u" is converted to "ufat"
 </div>
 <br>
 
+## $\text{\color{red}{Installation}}$
+```
+1. Clone the repository: $ git clone https://github.com/A-Picasso/Encrypter-ChallengeOracleONE.git
+2. Open the index.html file in your web browser.
+```
+<br>
+
 ## $\text{\color{red}{Desktop\ version}}$
 ![Screenshot from 2023-01-24 13-35-34](https://user-images.githubusercontent.com/95196431/214431178-22a776b7-b856-47e7-967e-a537c019e36e.png)
 ![Screenshot from 2023-01-24 16-05-19](https://user-images.githubusercontent.com/95196431/214431559-656675f0-2f3d-447a-a1f0-d0fbad5e50a7.png)
@@ -54,9 +61,6 @@ The letter "u" is converted to "ufat"
   </a>
   <a style="margin-left: 10px;" target="_blank" href="mailto:japm996@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a style="margin-left: 10px;" target="_blank" href="https://www.instagram.com/japm_5/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
   <a style="margin-left: 10px;" target="_blank" href="https://twitter.com/Dark_Spectre17">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
