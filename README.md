@@ -62,6 +62,9 @@ The letter "u" is converted to "ufat"
   <a style="margin-left: 10px;" target="_blank" href="mailto:japm996@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
+  <a style="margin-left: 10px;" target="_blank" href="https://github.com/A-Picasso">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
   <a style="margin-left: 10px;" target="_blank" href="https://twitter.com/Dark_Spectre17">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
   </a>
