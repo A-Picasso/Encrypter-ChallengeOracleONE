@@ -12,7 +12,7 @@
 </p>
 
 ## $\text{\color{red}{Description}}$
-First challenge on programming logic, made for the Oracle Next Education + Alura bootcamp.<br>
+First programming logic challenge, completed for the Oracle Next Education + Alura bootcamp.<br>
 The encryption "keys" that we will use are the following:<br>
 ```
 The letter "e" is converted to "enter"
