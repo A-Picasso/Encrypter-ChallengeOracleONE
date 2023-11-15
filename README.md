@@ -11,7 +11,7 @@
   </a>
 </p>
 
-## $\text{\color{red}{Description}}$
+## 📄 __Description__
 First programming logic challenge, completed for the Oracle Next Education + Alura bootcamp.<br>
 The encryption "keys" that we will use are the following:<br>
 ```
@@ -27,7 +27,7 @@ The letter "u" is converted to "ufat"
 * It was modified to receive lowercase or uppercase letters (all are converted to lowercase letters), so the received text can be written in uppercase letters but the system transforms it into lowercase letters.
 <br>
 
-## $\text{\color{red}{Built\ with}}$
+## 🛠️ __Built with__
 <div align="center">
   <img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white"/>
   <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
@@ -36,25 +36,25 @@ The letter "u" is converted to "ufat"
 </div>
 <br>
 
-## $\text{\color{red}{Installation}}$
+## 💾 __Installation__
 ```
 1. Clone the repository: $ git clone https://github.com/A-Picasso/Encrypter-ChallengeOracleONE.git
 2. Open the index.html file in your web browser.
 ```
 <br>
 
-## $\text{\color{red}{Desktop\ version}}$
+## 🖥️ __Desktop version__
 ![Screenshot from 2023-01-24 13-35-34](https://user-images.githubusercontent.com/95196431/214431178-22a776b7-b856-47e7-967e-a537c019e36e.png)
 ![Screenshot from 2023-01-24 16-05-19](https://user-images.githubusercontent.com/95196431/214431559-656675f0-2f3d-447a-a1f0-d0fbad5e50a7.png)
 ![Screenshot from 2023-01-24 13-35-50](https://user-images.githubusercontent.com/95196431/214431764-c808a5f7-785c-4458-a79e-95ab5063b57c.png)
 
-## $\text{\color{red}{Mobile\ version}}$
+## 📱 __Mobile version__
 <div align="center">
   <img src="https://user-images.githubusercontent.com/95196431/214434710-cd9bf4c5-189c-49f4-9513-2c8e922752a1.png"/>
   <img src="https://user-images.githubusercontent.com/95196431/214434723-242eee25-9f72-4c96-a1e0-6d7381cfae91.png"/>
 </div>
 
-## $\text{\color{red}{Connect\ with\ me}}$
+## ☎️ __Connect with me__
 <div align="center">
   <a style="margin-left: 10px;" target="_blank" href="https://www.linkedin.com/in/jose-alberto-picasso-mtz/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -64,8 +64,5 @@ The letter "u" is converted to "ufat"
   </a>
   <a style="margin-left: 10px;" target="_blank" href="https://github.com/A-Picasso">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a style="margin-left: 10px;" target="_blank" href="https://twitter.com/Dark_Spectre17">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
   </a>
 </div>
