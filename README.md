@@ -12,19 +12,20 @@
 </p>
 
 ## 📄 __Description__
-First programming logic challenge, completed for the Oracle Next Education + Alura bootcamp.<br>
-The encryption "keys" that we will use are the following:<br>
+First programming logic challenge, made for the Oracle Next Education + Alura bootcamp.<br>
+The encryption "keys" used are the following:<br>
 ```
-The letter "e" is converted to "enter"
-The letter "i" is converted to "imes"
-The letter "a" is converted to "ai"
-The letter "o" is converted to "ober"
-The letter "u" is converted to "ufat"
+The letter "e" becomes "enter"
+The letter "i" becomes "imes"
+The letter "a" becomes "ai"
+The letter "o" becomes "ober"
+The letter "u" becomes "ufat"
 ```
 **Considerations:**
-* Letters with accents or special characters must not be used.
-* No numbers should be used.
-* It was modified to receive lowercase or uppercase letters (all are converted to lowercase letters), so the received text can be written in uppercase letters but the system transforms it into lowercase letters.
+* Letters with accents or special characters should not be used.
+* Numbers should not be used.
+* The application was modified to receive lowercase or uppercase letters (all are converted to lowercase),
+so the received text can be written in uppercase but the system transforms it to lowercase.
 <br>
 
 ## 🛠️ __Built with__
